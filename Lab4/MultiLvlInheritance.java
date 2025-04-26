@@ -1,18 +1,15 @@
-// Base class
-class Animal {
+ class Animal {
     void eat() {
         System.out.println("This animal eats food.");
     }
 }
 
-// Derived class from Animal
 class Dog extends Animal {
     void bark() {
         System.out.println("The dog barks.");
     }
 }
 
-// Derived class from Dog
 class Puppy extends Dog {
     void weep() {
         System.out.println("The puppy weeps.");
